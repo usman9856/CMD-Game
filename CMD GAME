@@ -1,0 +1,108 @@
+#include < iostream >
+
+using namespace std;
+
+
+void main()
+{
+
+	char ch ; 
+	cout << endl;
+	cout << endl;
+	cout << "*** *** *** *** *** **** *** *** *** *** " << endl;
+	cout << "*** *** *** *** DOOM *** *** *** *** *** " << endl;
+	cout << "*** *** *** *** *** **** *** *** *** *** " << endl;
+	system("pause");
+	system("cls");
+	cout << endl;
+	cout << endl;
+	cout << "***Welcome SURVIVIOR ***" << endl;
+	cout << "***You are a doctor, travelling New York to Huwaii but due to some engine ";
+	cout << "failure your plane has crashed and now it is up to you to decide what happens form here on.***" << endl;
+	system("pause");
+
+	system("cls");
+	cout << endl;
+	cout << endl;
+	cout << "Survivor1: I see you have survived that crash and are in perfect shape." << endl;
+	system("pause");
+	system("cls");
+	cout << endl;
+	cout << endl;
+	cout << "Survivor1: As you can see we have crashed in this unhabitable ISLAND. " << endl;
+	system("pause");
+	system("cls");
+	cout << endl; 
+	cout << endl;
+	cout << "Survivor1: So those of us who can walk are planning to procure Ration and shelter until help arrives. " << endl;
+	system("pause");
+	system("cls");
+	cout << endl;
+	cout << endl;
+	cout << "Survivor1: If you dont mind please procure some supplies." << endl;
+	cout << endl;
+	cout << "*** *** Your choice will effect the story *** ***" << endl;
+	cout << "1.Go **** yourself !\t ";
+	cout << "2.Sure why not . ";
+	cin >> ch;
+
+	if (ch == 1)
+	{
+	
+		cout << endl;
+		cout << endl;
+		cout << "Survivor 1 :Please sir that is not gonna cut it, we all need to cooperate to survive this mess." << endl;
+		cout << "Survivor 1 :What do you say will you help us procure some supplies." << endl;
+		cout << "1.Go **** yourself !\t ";
+		cout << "2.Sure why not . " << endl;;
+		cin >> ch;
+
+		if (ch == 1)
+		{
+	
+			system("pause");
+			system("cls");
+			cout << endl;
+			cout << endl;
+
+			cout << "Survivor 1 :Well then as you can see we do not have the capacity to keep so many survivers alive. " << endl;
+			cout << "Survivor 1 :I am afraid you are gonna have to disapper then " << endl;
+			cout << "*** You feel a sharp pain and Fall ***" << endl;
+			cout << "*** Start to feel cold as the blood gushes out of you ***" << endl;
+
+		}
+		if (ch == 2)
+		{
+		system("pause");
+			system("cls");
+			cout << endl;
+			cout << endl;
+			cout << "Survivor 1 :Great, Please go with those people over there ." << endl;
+			cout << "Survivor 1 :They are trying to procure some fruits from the forest you may be helpful to them. " << endl;
+
+		}
+	}
+	if (ch == 2)
+	{
+		system("pause");
+		system("cls");
+		cout << endl;
+		cout << endl;
+		cout << "Survivor 1 :Great, Please go with those people over there ." << endl;
+		cout << "Survivor 1 :They are trying to procure some fruits from the forest you may be helpful to them. " << endl;
+
+	}
+
+	system("pause");
+	system("cls");
+	cout << endl;
+	cout << endl;
+	cout << "*** You go deep in the forest with a group of people *** " << endl;
+	cout << "Survivor 2***whispers***: I see some snakes at 2 o'clock " << endl;
+	cout << "And I think i see some food close to thier nest" << endl;
+	cout << "***Survivor X (trying to act cool) approches the snakes gets bitten*** " << endl;
+
+	cout << "*** You try to approch Survivor X to help him but get bitten instead by multiple snakes leading to your instant death (:p) ***" << endl;
+
+	system("pause");
+}
